@@ -55,6 +55,7 @@ Temporary Items
 *_files/
 __pycache__/
 !README.md
+!BITACORA_DMEYF.md
 *.ipynb_checkpoints/
 
 *copia.ipynb
@@ -167,6 +168,8 @@ Session.vim
 
 # Python
 *.pyc
+.venv/
+data/
 
 # Scala - sbt specific
 .cache
