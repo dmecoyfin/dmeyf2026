@@ -242,8 +242,7 @@ La notebook modificada fue validada como JSON y su primera celda Python fue comp
 
 ## Próximos pasos
 
-1. Publicar la rama en el fork personal.
-2. Clonar la rama en la Mac, recrear `.venv` y transferir o volver a descargar el dataset.
+1. Clonar la rama en la Mac, recrear `.venv` y transferir o volver a descargar el dataset.
 
 ## 10. Descargar el dataset oficial
 
@@ -427,13 +426,29 @@ Los únicos archivos pendientes de versionar son `.gitignore`, `BITACORA_DMEYF.m
 
 ## 19. Crear el commit local
 
-Se creó un único commit en la rama `feature/clase-ternaria` con el mensaje:
+Se creó el commit principal en la rama `feature/clase-ternaria` con el mensaje:
 
 ```text
 feat: construir clase ternaria con DuckDB
 ```
 
-El commit incluye exclusivamente `.gitignore`, `BITACORA_DMEYF.md`, `requirements.txt` y `monday/tomas_target_sql.ipynb`. Todavía no fue publicado en el remoto.
+El commit incluye exclusivamente `.gitignore`, `BITACORA_DMEYF.md`, `requirements.txt` y `monday/tomas_target_sql.ipynb`.
+
+## 20. Publicar la rama en el fork
+
+La rama se publicó en el fork personal mediante:
+
+```bash
+git push -u origin feature/clase-ternaria
+```
+
+El seguimiento quedó configurado así:
+
+```text
+feature/clase-ternaria -> origin/feature/clase-ternaria
+```
+
+No se abrió un pull request y no se modificó el repositorio oficial de la cátedra.
 
 ## Resultados observados del target (no oficiales)
 
